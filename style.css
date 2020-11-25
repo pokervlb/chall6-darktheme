@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Raleway", sans-serif;
+     /* border: 1px solid red;  */
+    letter-spacing: 0.08rem;
+}
+
+body {
+    background-color: hsl(218, 28%, 13%);
+
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-image: url('/images/bg-curvy-desktop.svg');
+
+}
+
+nav{
+    display:flex;
+    justify-content:space-between ;
+}
+.nav--logo{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+ .nav--text{
+     align-self: center;
+     margin-right: 1rem;;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.image--1{
+    display:flex;
+    justify-content: center;
+}
+
+.word--1 {
+    display: block;
+}
+
+
+.main--title{
+    margin: 3rem 0;
+
+}
+
+.btn {
+    margin-top: 2rem;
+    padding: 0.8rem 2.5rem;
+    background-color:  hsl(176, 68%, 64%);
+    border-radius: 1.5em;
+
+}
+
+.icon--wrapper {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    grid-gap: 5rem;
+}
+
+.icons{
+    /* align-items: center; */
+    justify-content: center;
+    display:flex;
+}
+
+.icon--computer {  /*r/c/r/c*/
+    grid-area: 1/2/2/3;
+}
+
+.icon--shield {
+    grid-area: 1/3/2/4;
+}
+
+.icon--time {
+    grid-area: 2/2/3/3;
+
+}
+
+.icon--folder {
+    grid-area: 2/3/3/4;
+}
+.icon--img{
+    align-self: center;
+}
+
+.text--under--icon{
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    margin:1rem 0;
+    align-self:center;
+}
+
+.message{
+    display:flex;
+    /* justify-content: center; */
+    margin-top:3rem;
+    
+}
+
+.left--message {
+    
+    align-self:center;
+}
+
+
+.right--message {
+    width:50%; 
+    text-justify:center ;
+    margin-left:3rem;
+    margin-top:6rem;
+    
+}
+
+.message--link{
+    color: hsl(176, 68%, 64%);
+}
+
+.word--3 {
+    display: block;
+}
+
+.text--word3{
+    padding: 2rem 0;
+}
+
+
+.cloud--boxs {
+    display:flex;
+    margin: 0 8rem;
+    margin-top:4rem;
+    margin-bottom: 5rem;
+ 
+    
+}
+
+.cloud--box{
+    margin:1rem 1rem;
+    padding:3rem 1.5rem;
+    background-color: hsl(219, 30%, 18%); 
+
+}
+
+
+.author {
+    margin-top: 2rem;
+    display:flex;
+}
+.img--author{
+    height: 2rem;
+    width: 2rem;
+    border-radius:50%;
+}
+
+.name {
+    font-size: 0.9rem;
+    font-weight: bold
+}
+
+.factory {
+    font-size: 0.7rem;
+    opacity: 0.5;
+    
+    
+}
+
+.name--factory{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+    display:flex;
+    flex-direction: column;
+    
+}
+.footer--logo--location{
+    margin-left: 5rem;
+    padding-top: 3rem;
+    
+}
+
+.footer--information{
+    margin-left:5rem;
+    margin-top: 3rem;
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    width: calc(100% - 10rem);
+    
+}   
+
+.word--4 {
+    display:  block;
+}
+
+
+.box{
+    display:flex;
+}
+
+
+.word--5{
+    display:  block;
+    padding:0.3rem;
+}
+
